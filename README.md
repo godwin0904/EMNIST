@@ -15,10 +15,11 @@ had addressed the balance issues in the “ByClass” and “ByMerge” datasets
 the “ByMerge” dataset to reduce mis-classification errors due to capital and lower-case letters
 and also has an equal number of samples per class. The “Balanced” dataset information is as
 follows:
-§ Train: 112,800
-§ Test: 18,800
-§ Total: 131,600
-§ Classes: 47 (balanced)
+Markup : 
+- Train: 112,800
+- Test: 18,800
+- Total: 131,600
+- Classes: 47 (balanced)
 If we visualize the EMNIST images, they look like as follows:
 1 https://www.kaggle.com/datasets/crawford/emnist
 
