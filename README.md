@@ -47,18 +47,18 @@ regularization, with L2 regularization)
 6) Dropout (explore two options: with or without Dropout)
 
 Note: Below is one strategy you can try to effectively explore the combinations of the above techniques:
-• Initially, establish a baseline model configuration utilizing your existing knowledge of deep learning. For
+- Initially, establish a baseline model configuration utilizing your existing knowledge of deep learning. For
 instance, you might select ReLU, ADAM, Batch Normalization, L2 Regularization, and Dropout, etc., as the
 initial setup of your model.
-• Following this, investigate each optimization technique separately, while preserving the most effective
+- Following this, investigate each optimization technique separately, while preserving the most effective
 settings from previous explorations. For exmaple,
-o Explore learning rate scheduling methods and identify the most suitable one; Incorporate
+  - Explore learning rate scheduling methods and identify the most suitable one; Incorporate
 this method into your model
-o Explore activation functions and select the most appropriate one; Use this activation
+  - Explore activation functions and select the most appropriate one; Use this activation
 function in your model
-o Explore various optimizers and choose the optimal one for your model
-o Continue this process to explore additional techniques
-• Upon completing these explorations, your resulting model should demonstrate superior performance
+  - Explore various optimizers and choose the optimal one for your model
+  - Continue this process to explore additional techniques
+- Upon completing these explorations, your resulting model should demonstrate superior performance
 compared to the initial baseline configuration.
 
 This is one possible strategy, of course, you can use other feasible strategies, as long as you can demonstrate your ability
@@ -66,9 +66,9 @@ to evaluate and investigate various techniques in order to determine the most ap
 specific task. The assessment of this critical skill is one of the key goals of this assignment.
 During your training MLP and CNNs, you also need to decide the below hyperparameters that
 are most suitable for your MLP and CNN models, for example,
-• Number of Hidden layers
-• Number of hidden neurons for each hidden layer
-• …
+- Number of Hidden layers
+- Number of hidden neurons for each hidden layer
+- …
 
 When building the neural networks, you can use any libraries (pandas, NumPy, matplotlib …)
 and frameworks (PyTorch, Tensorflow, …). However, your code must include the following
