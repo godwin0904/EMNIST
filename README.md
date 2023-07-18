@@ -78,28 +78,28 @@ steps:
 3. Split data into a training dataset and a testing dataset (e.g., using DataLoader in
 PyTorch)
 4. Understand the dataset and visualize the dataset:
-a. Print-out the number of training/testing samples in the dataset.
-b. Plot some figures to visualize some samples as above figures (we will provide
+  1. Print-out the number of training/testing samples in the dataset.
+  2. Plot some figures to visualize some samples as above figures (we will provide
 the mapping .txt file for “Balanced” dataset, if you can implement mapping
 from the index to the classes by yourself, you can ignore the .txt file).
 5. For the two models - MLP and CNNs, please complete the below steps respectively on
 the training dataset
-a. For the techniques/hyperparameters you choose to explore, you can use cross
+  1. For the techniques/hyperparameters you choose to explore, you can use cross
 validation to find the most suitable combination (of those
 techniques/hyperparameters) under the evaluation metric of accuracy.
-b. After you obtain the best version of the model (i.e., the model with the best
+  2. After you obtain the best version of the model (i.e., the model with the best
 techniques/hyperparameters combination), please:
-1. Plot the loss function graph respect to the iteration/epoch
-2. Plot the accuracy graph respect to the iteration/epoch
-3. You can use either CPU or GPU to train your model and please print
+    1. Plot the loss function graph respect to the iteration/epoch
+    2. Plot the accuracy graph respect to the iteration/epoch
+    3. You can use either CPU or GPU to train your model and please print
 the training time
 
 6. After you obtained the best version of MLP and CNNs, please test both models on the
 testing dataset
-a. Compare the performance of MLP and CNNs
-1. Load your model and print the prediction of the top six samples in testing
+  1. Compare the performance of MLP and CNNs
+    1. Load your model and print the prediction of the top six samples in testing
 dataset, compare them with the true labels, which will be similar to the
 below (example from Fashionmnist).
-2. Plot the confusion matrix of two models – MLP and CNNs
-3. Summarize the performance of two models using accuracy, please also
+    2. Plot the confusion matrix of two models – MLP and CNNs
+    3. Summarize the performance of two models using accuracy, please also
 report the precision, recall and F1 score of MLP and CNNs
