@@ -89,16 +89,16 @@ validation to find the most suitable combination (of those
 techniques/hyperparameters) under the evaluation metric of accuracy.
 b. After you obtain the best version of the model (i.e., the model with the best
 techniques/hyperparameters combination), please:
-i. Plot the loss function graph respect to the iteration/epoch
-ii. Plot the accuracy graph respect to the iteration/epoch
-iii. You can use either CPU or GPU to train your model and please print
+  1. Plot the loss function graph respect to the iteration/epoch
+  2. Plot the accuracy graph respect to the iteration/epoch
+  3. You can use either CPU or GPU to train your model and please print
 the training time
 6. After you obtained the best version of MLP and CNNs, please test both models on the
 testing dataset
 a. Compare the performance of MLP and CNNs
-i. Load your model and print the prediction of the top six samples in testing
+  1. Load your model and print the prediction of the top six samples in testing
 dataset, compare them with the true labels, which will be similar to the
 below (example from Fashionmnist).
-ii. Plot the confusion matrix of two models – MLP and CNNs
-iii. Summarize the performance of two models using accuracy, please also
+  2. Plot the confusion matrix of two models – MLP and CNNs
+  3. Summarize the performance of two models using accuracy, please also
 report the precision, recall and F1 score of MLP and CNNs
