@@ -19,6 +19,7 @@ follows:
 - Test: 18,800
 - Total: 131,600
 - Classes: 47 (balanced)
+
 If we visualize the EMNIST images, they look like as follows: https://www.kaggle.com/datasets/crawford/emnist
 
 ## Project Introduction:
